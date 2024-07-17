@@ -1,0 +1,12 @@
+// 4) Mixins
+
+@mixin flexbox {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+@mixin border-radius($radius) {
+    border: 2px solid black;
+    border-radius: $radius;
+}
